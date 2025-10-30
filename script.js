@@ -118,6 +118,11 @@ const dados = {
       icone: "bi-instagram",
     },
     {
+      nome: "Whatsapp",
+      link: "https://wa.me/5571988327708",
+      icone: "bi-whatsapp",
+    },
+    {
       nome: "Email",
       link: "mailto:faelsoaresm@gmail.com",
       icone: "bi-envelope-fill",
@@ -177,8 +182,10 @@ function carregarDados() {
     const div = document.createElement("div");
     div.className = "project-card";
     div.innerHTML = ` 
-                    <img class="project-image" src="${project.imagem}" />
-                    <div>
+                    <img class="project-image" src="${project.imagem}" alt="${
+      project.titulo
+    }"/>
+                    
                     <div class="project-title">${project.titulo}</div>
                     <div class="project-desc">${project.descricao}</div>
                     ${
@@ -188,7 +195,7 @@ function carregarDados() {
                     </a>`
                         : ""
                     }
-                    </div>
+                    
                 `;
     projectsContainer.appendChild(div);
   });

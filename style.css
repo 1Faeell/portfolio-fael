@@ -223,6 +223,10 @@ body::before {
   color: var(--color-white);
 }
 
+.section-title i {
+  margin-right: 1rem;
+}
+
 .arrow {
   transition: transform 0.3s ease;
   font-size: 1.3em;
@@ -235,12 +239,12 @@ body::before {
 
 .section-content {
   max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease;
+  overflow: auto;
+  transition: max-height 0.8s ease-in-out;
 }
 
 .section.active .section-content {
-  max-height: 2000px;
+  max-height: 800px;
 }
 
 .section-inner {

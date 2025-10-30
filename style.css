@@ -539,10 +539,15 @@ body::before {
   }
 
   .contact-info {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
+    justify-content: center;
   }
+
+  /* .contact-item {
+    flex-direction: column;
+  } */
 
   .social-links-profile {
     justify-content: center;

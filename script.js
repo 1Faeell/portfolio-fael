@@ -28,6 +28,13 @@ const dados = {
 
   projetos: [
     {
+      titulo: "Site Advocacia",
+      descricao:
+        "Website institucional profissional com design corporativo elegante e layout totalmente responsivo. Feito em HTML, CSS e Javascript",
+      imagem: "assets/images/advocacia-e-consultoria.png",
+      link: "https://1faeell.github.io/advocacia-e-consultoria",
+    },
+    {
       titulo: "Site Cafeteria",
       descricao:
         "Coffee’s Place, um site fictício de cafeteria feito com HTML, CSS e JavaScript puro.",

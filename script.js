@@ -28,6 +28,13 @@ const dados = {
 
   projetos: [
     {
+      titulo: "Site Barbearia",
+      descricao:
+        "Uma landing page moderna, elegante e totalmente responsiva para barbearias. Desenvolvida com HTML5, CSS3 e JavaScript puro",
+      imagem: "assets/images/barber-shop.png",
+      link: "https://1faeell.github.io/barber-shop",
+    },
+    {
       titulo: "Site Advocacia",
       descricao:
         "Website institucional profissional com design corporativo elegante e layout totalmente responsivo. Feito em HTML, CSS e Javascript",

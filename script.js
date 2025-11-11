@@ -28,6 +28,13 @@ const dados = {
 
   projetos: [
     {
+      titulo: "Site Psicologia",
+      descricao:
+        "Site profissional e moderno para psicóloga clínica, desenvolvido com foco em design elegante, responsividade e experiência do usuário. Desenvolvido em HTML, CSS e Javascript",
+      imagem: "assets/images/psicologia-website.png",
+      link: "https://1faeell.github.io/psicologia-website",
+    },
+    {
       titulo: "Site Barbearia",
       descricao:
         "Uma landing page moderna, elegante e totalmente responsiva para barbearias. Desenvolvida com HTML5, CSS3 e JavaScript puro",

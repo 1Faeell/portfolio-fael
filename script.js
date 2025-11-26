@@ -28,6 +28,20 @@ const dados = {
 
   projetos: [
     {
+      titulo: "Site Designer de Interiores",
+      descricao:
+        "Site profissional, moderno e totalmente responsivo desenvolvido para uma empresa de Design de Interiores, com foco em valorizar o portfólio visual, apresentar processos e serviços de forma clara e elegante",
+      imagem: "assets/images/atelierluna-designer-de-interiores.png",
+      link: "https://atelierluna-designer-de-interiores.vercel.app/",
+    },
+    {
+      titulo: "Site Clínica Médica",
+      descricao:
+        "Site profissional moderno e responsivo desenvolvido para Clínica Médica, oferecendo uma experiência completa e profissional para pacientes que buscam informações sobre serviços médicos, equipe e agendamento de consultas.",
+      imagem: "assets/images/clinica-medica-vida.png",
+      link: "https://clinica-medica-vida.vercel.app",
+    },
+    {
       titulo: "Site Psicologia",
       descricao:
         "Site profissional e moderno para psicóloga clínica, desenvolvido com foco em design elegante, responsividade e experiência do usuário. Desenvolvido em HTML, CSS e Javascript",

@@ -28,6 +28,13 @@ const dados = {
 
   projetos: [
     {
+      titulo: "Site Clínica de Psicologia",
+      descricao:
+        "Landing page moderna e responsiva desenvolvida para uma clínica de psicologia, focada em proporcionar uma experiência acolhedora e profissional aos visitantes.",
+      imagem: "assets/images/clinica-vaz.png",
+      link: "https://1faeell.github.io/clinica-vaz-psicologia",
+    },
+    {
       titulo: "Site Designer de Interiores",
       descricao:
         "Site profissional, moderno e totalmente responsivo desenvolvido para uma empresa de Design de Interiores, com foco em valorizar o portfólio visual, apresentar processos e serviços de forma clara e elegante",
@@ -299,6 +306,6 @@ function toggleSection(id) {
 carregarDados();
 
 // Abrir primeira seção
-setTimeout(() => {
-  document.getElementById("skills-section").classList.add("active");
-}, 300);
+// setTimeout(() => {
+//   document.getElementById("skills-section").classList.add("active");
+// }, 300);

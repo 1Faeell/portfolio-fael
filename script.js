@@ -28,23 +28,37 @@ const dados = {
 
   projetos: [
     {
+      titulo: "Site Advocacia Helena Monteiro",
+      descricao:
+        "Site Landing Page desenvolvido para a Dra. Helena Monteiro, apresentando serviços jurídicos especializados com design elegante e profissional. Desenvolvido em HTML, CSS, TailwindCSS, JS e AOS Library",
+      imagem: "assets/images/advocacia-helenamonteiro.png",
+      link: "https://helena-monteiro-advocacia.vercel.app",
+    },
+    {
+      titulo: "Site Advocacia Arthur Vilela",
+      descricao:
+        "Site Landing Page moderno, responsivo e performático para escritório de advocacia do especializado em direito digital do Arthur Vilela, corporativo e inovação jurídica. Desenvolvido em HTML, CSS, TailwindCSS, JS e AOS Library",
+      imagem: "assets/images/advocacia-arthurvilela.png",
+      link: "https://arthur-vilela-advocacia.vercel.app",
+    },
+    {
       titulo: "Site Clínica de Psicologia",
       descricao:
-        "Landing page moderna e responsiva desenvolvida para uma clínica de psicologia, focada em proporcionar uma experiência acolhedora e profissional aos visitantes.",
+        "Landing page moderna e responsiva desenvolvida para uma clínica de psicologia, focada em proporcionar uma experiência acolhedora e profissional aos visitantes. Desenvolvido em HTML, CSS, TailwindCSS e JS",
       imagem: "assets/images/clinica-vaz.png",
       link: "https://1faeell.github.io/clinica-vaz-psicologia",
     },
     {
       titulo: "Site Designer de Interiores",
       descricao:
-        "Site profissional, moderno e totalmente responsivo desenvolvido para uma empresa de Design de Interiores, com foco em valorizar o portfólio visual, apresentar processos e serviços de forma clara e elegante",
+        "Site profissional, moderno e totalmente responsivo desenvolvido para uma empresa de Design de Interiores, com foco em valorizar o portfólio visual, apresentar processos e serviços de forma clara e elegante. Desenvolvido em HTML, CSS e JS",
       imagem: "assets/images/atelierluna-designer-de-interiores.png",
       link: "https://atelierluna-designer-de-interiores.vercel.app/",
     },
     {
       titulo: "Site Clínica Médica",
       descricao:
-        "Site profissional moderno e responsivo desenvolvido para Clínica Médica, oferecendo uma experiência completa e profissional para pacientes que buscam informações sobre serviços médicos, equipe e agendamento de consultas.",
+        "Site profissional moderno e responsivo desenvolvido para Clínica Médica, oferecendo uma experiência completa e profissional para pacientes que buscam informações sobre serviços médicos, equipe e agendamento de consultas. Desenvolvido em HTML, CSS e JS",
       imagem: "assets/images/clinica-medica-vida.png",
       link: "https://clinica-medica-vida.vercel.app",
     },

@@ -28,6 +28,13 @@ const dados = {
 
   projetos: [
     {
+      titulo: "Site Advocacia Silva & Associados",
+      descricao:
+        "Site institucional moderno e responsivo para uma equipe de advogados, desenvolvido com foco em conversão e experiência do usuário. Desenvolvido em HTML, CSS, TailwindCSS, JS e AOS Library",
+      imagem: "assets/images/silvaeassociados-advocacia.png",
+      link: "https://silvaeassociados-advocacia.vercel.app",
+    },
+    {
       titulo: "Site Advocacia Helena Monteiro",
       descricao:
         "Site Landing Page desenvolvido para a Dra. Helena Monteiro, apresentando serviços jurídicos especializados com design elegante e profissional. Desenvolvido em HTML, CSS, TailwindCSS, JS e AOS Library",
